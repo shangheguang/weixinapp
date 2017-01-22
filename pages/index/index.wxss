@@ -1,0 +1,72 @@
+.bgfff{
+    background:#fff;
+}
+.order_top_con{
+    background:#26ab28;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    padding:10px 15px;
+    position: relative;
+}
+.order_top_con .dec_img00{
+    width: 75rpx; 
+	height: 70rpx;
+    position: absolute;
+    right: 30px; top: 30%;
+    background-size: 75rpx 70rpx;
+    display:block;
+}
+.mt10{
+    margin-top: 10px;
+}
+.borderb{
+    border-bottom: 1px solid #f2f2f2;
+}
+.orderLocation .title{
+    font-size: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    height: 88rpx;
+    line-height: 88rpx;
+    padding-left: 20px;
+}
+.orderLocation .step_box{
+    border-left: 1px solid #f2f2f2;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.orderLocation .item{
+    font-size: 14px;
+    color: #999999;
+    position: relative; 
+    padding: 10px 10px;
+    margin-left: 15px;
+}
+.orderLocation .itemOn{
+    color: #1fb922;
+    padding-top: 0;
+}
+.orderLocation .item::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #d7d7d7;
+    border-radius: 50%;
+    left: -21px;
+    top: 15px;
+}
+.orderLocation .itemOn::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #1fb922;
+    border-radius: 50%;
+    left: -21px;
+    top: 5px;
+}
+.orderLocation .step_box .fs12{
+    font-size: 12px;
+    padding-top: 10px;
+}

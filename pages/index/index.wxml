@@ -1,0 +1,25 @@
+<view wx:if="{{expressData}}">
+
+	<view class="order_top_con">
+
+	    <view><text>快递公司：{{expressData.com}}</text></view>
+	    <view><text>订单编号：{{expressData.nu}}</text></view>
+	    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	    <view><text>desc:   [简单API请求示例]</text></view>   
+	    <view><text>author: shangheguang@yeah.net</text></view> 
+	    <view><text>date:   2017-01-20</text></view> 
+
+	    <view class="icon dec_img00"></view>
+	</view>
+	<view class="mt10 bgfff orderLocation">
+	    <view class="title"><text>订单跟踪</text></view>
+	    <view class="step_box">
+
+	        <view class="borderb item {{index==0 ? 'itemOn' : ''}}" wx:for="{{expressData.data}}" >
+	            <view><text>{{item.context}}</text></view>
+	            <view class="fs12"><text>{{item.time}}</text></view>
+	        </view>
+
+	    </view>
+	</view>
+</view>
