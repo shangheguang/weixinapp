@@ -6,7 +6,7 @@
 
 /**
  * POST请求API
- * @param  {String}   path        接口地址
+ * @param  {String}   url         接口地址
  * @param  {Object}   params      请求的参数
  * @param  {Object}   sourceObj   来源对象
  * @param  {Function} successFun  接口调用成功返回的回调函数
@@ -19,7 +19,7 @@ function requestPostApi(url, params, sourceObj, successFun, failFun, completeFun
 
 /**
  * GET请求API
- * @param  {String}   path        接口地址
+ * @param  {String}   url         接口地址
  * @param  {Object}   params      请求的参数
  * @param  {Object}   sourceObj   来源对象
  * @param  {Function} successFun  接口调用成功返回的回调函数
@@ -32,7 +32,7 @@ function requestGetApi(url, params, sourceObj, successFun, failFun, completeFun)
 
 /**
  * 请求API
- * @param  {String}   path        接口地址
+ * @param  {String}   url         接口地址
  * @param  {Object}   params      请求的参数
  * @param  {String}   method      请求类型
  * @param  {Object}   sourceObj   来源对象
@@ -65,5 +65,5 @@ function requestApi(url, params, method, sourceObj, successFun, failFun, complet
 
 module.exports = { 
 	requestPostApi,
-    requestGetApi
+    	requestGetApi
 }
